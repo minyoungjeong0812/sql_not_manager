@@ -1,0 +1,2 @@
+# sql_not_manager
+query_to_find_someone_not_managing
