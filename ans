@@ -1,0 +1,8 @@
+https://www.db-fiddle.com/f/nZdtoWFH6uFM2EAerYY8mM/0
+
+select name
+from employees
+where id not in
+(select managerId
+from employees
+where managerId is not null)
